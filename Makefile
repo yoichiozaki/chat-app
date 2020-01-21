@@ -30,4 +30,4 @@ $(BIN_DIR)/server: $(SRC_DIR)/server.c $(SRC_DIR)/server_commands.c $(SRC_DIR)/c
 	$(SRC_DIR)/error_log.c
 
 clean:
-	rm bin/*
+	rm -r bin/*
